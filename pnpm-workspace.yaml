@@ -1,0 +1,17 @@
+allowBuilds:
+  better-sqlite3: false
+  esbuild: true
+  workerd: true
+overrides:
+  vite@*: npm:@voidzero-dev/vite-plus-core@1.6.0
+peerDependencyRules:
+  allowedVersions:
+    vite: "*"
+minimumReleaseAgeExclude:
+  - "@void/deploy-cloudflare@1.9.1"
+  - "@void/deploy-core@1.9.1"
+  - "@void/edge@1.9.1"
+  - "@void/isr@1.9.1"
+  - "@void/platform@1.9.1"
+  - "@void/vue@1.9.1"
+  - void@1.9.1
